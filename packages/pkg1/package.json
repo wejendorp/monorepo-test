@@ -1,6 +1,6 @@
 {
   "name": "@wejendorp/pkg1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some pkg",
   "author": "Jacob Wejendorp <jwe@tradeshift.com>",
   "homepage": "https://github.com/wejendorp/monorepo-test/tree/main/packages/pkg1#readme",
