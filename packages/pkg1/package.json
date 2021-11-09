@@ -1,0 +1,29 @@
+{
+  "name": "@wejendorp/pkg1",
+  "version": "0.0.0",
+  "description": "Some pkg",
+  "author": "Jacob Wejendorp <jwe@tradeshift.com>",
+  "homepage": "https://github.com/wejendorp/monorepo-test/tree/main/packages/pkg1#readme",
+  "license": "MIT",
+  "main": "lib/pkg1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wejendorp/monorepo-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wejendorp/monorepo-test/issues"
+  }
+}
