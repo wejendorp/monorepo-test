@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wejendorp/monorepo-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wejendorp/monorepo-test/issues"
+  },
+  "homepage": "https://github.com/wejendorp/monorepo-test#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.18.0",
+    "lerna": "^4.0.0"
+  }
+}
