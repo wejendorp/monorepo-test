@@ -18,6 +18,7 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: 12.x
+          registry-url: "https://npm.pkg.github.com"
 
       - name: Install Dependencies
         run: yarn
@@ -25,9 +26,9 @@ jobs:
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@master
-        # with:
-        #   This expects you to have a script called release which does a build for your packages and calls changeset publish
-        #   publish: yarn release
+        with:
+          #   This expects you to have a script called release which does a build for your packages and calls changeset publish
+          publish: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
