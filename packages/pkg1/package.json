@@ -13,10 +13,7 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wejendorp/monorepo-test.git"
-  },
+  "repository": "https://github.com/wejendorp/monorepo-test",
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
